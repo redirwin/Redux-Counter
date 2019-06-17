@@ -24,7 +24,7 @@ class Counter extends Component {
           onClick={() => {
             /* Fill me in */
             // console.log("clicked plus");
-            this.increment();
+            this.props.increment();
           }}
         >
           +
@@ -33,7 +33,7 @@ class Counter extends Component {
           onClick={() => {
             /* Fill me in */
             // console.log("clicked minus");
-            this.decrement();
+            this.props.decrement();
           }}
         >
           -
